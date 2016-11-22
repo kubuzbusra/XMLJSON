@@ -11,6 +11,7 @@ public partial class ArrayOfKisi
     [System.Xml.Serialization.XmlElementAttribute("Kisi")]
     public ArrayOfKisiKisi[] Kisi
     {
+
         get
         {
             return this.kisiField;
